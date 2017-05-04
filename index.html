@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS User Registration and Login Example & Tutorial</title>
+   
+	
+	 <script src="js/angular.min.js"></script>
+	
+</head>
+<body ng-app="myApp">
+
+    
+	<div ng-controller="myCtrl"> 
+	{{firstName}}
+	{{3+4}}
+	
+	<button ng-click="getUserData();" >OK</button>
+	
+	Insert New USer:
+	<p>First Name  <input type="text" name="firstname" ng-model="name" required /></p>
+	<p>First Name  <input type="text" name="email" ng-model="email" required /></p>
+	 <button ng-click="sendData()">Submit</button>
+	 
+	 {{message}}
+		
+	{{getData}}
+	
+	UPdate User
+	<p>First Name  <input type="text" name="updatedname" ng-model="updatedname" required /></p>
+	<p>email <input type="text" name="updtaedemail" ng-model="updtaedemail" required /></p>
+	 <button ng-click="updtaeData()">Submit</button>
+	 {{updateMessage}}
+	</div>
+	ssss
+	
+	
+	
+
+<div>
+
+	
+	
+	
+  <script src="app.js"></script>
+    
+   
+</body>
+</html>
